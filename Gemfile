@@ -36,3 +36,4 @@ end
 
 # GOV.UK Frontend packages
 gem 'govuk_template', '0.17.3'
+gem 'govuk_frontend_toolkit', '4.12.0'

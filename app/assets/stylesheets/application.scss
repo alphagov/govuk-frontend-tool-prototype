@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+/** Frontend Toolkit Helpers */
+ @import 'grid_layout';
+ @import 'measurements';
+
+.app-container {
+  @extend %site-width-container;
+
+  padding: $gutter 0;
+}
