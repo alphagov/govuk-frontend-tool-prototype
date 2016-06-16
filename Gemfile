@@ -32,3 +32,7 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
 end
+
+
+# GOV.UK Frontend packages
+gem 'govuk_template', '0.17.3'
