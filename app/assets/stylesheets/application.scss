@@ -15,10 +15,14 @@
  */
 
 /** Frontend Toolkit Helpers */
-@import 'colours';
+@import "colours";
 @import 'grid_layout';
 @import 'measurements';
 @import 'typography';
+
+@import "design-patterns/buttons";
+
+@import 'elements/buttons';
 
 .app-container {
   @extend %site-width-container;
