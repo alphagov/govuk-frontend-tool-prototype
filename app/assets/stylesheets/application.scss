@@ -15,11 +15,27 @@
  */
 
 /** Frontend Toolkit Helpers */
- @import 'grid_layout';
- @import 'measurements';
+@import 'colours';
+@import 'grid_layout';
+@import 'measurements';
+@import 'typography';
 
 .app-container {
   @extend %site-width-container;
 
   padding: $gutter 0;
+}
+
+.hero {
+  padding: $gutter;
+  background: $govuk-blue;
+  color: $white;
+
+  &__title {
+    @include bold-48();
+  }
+
+  &__description {
+    @include copy-19();
+  }
 }
