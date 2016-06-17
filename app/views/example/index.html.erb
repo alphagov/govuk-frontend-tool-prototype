@@ -14,17 +14,13 @@
   <h3>Which types of waste do you transport regularly?</h3>
   <p>Select all that apply</p>
 
-  <form>
-    <fieldset>
-
-      <legend class="visuallyhidden">Which types of waste do you transport regularly?</legend>
-
-      <%= render partial: "partials/chunky_checkbox", locals: {id: "waste-type-1", name: "waste-types", value: "waste-animal", label: "Waste from animal carcasses" } %>
-
-      <%= render partial: "partials/chunky_checkbox", locals: {id: "waste-type-2", name: "waste-types", value: "waste-mines", label: "Waste from mines or quarries" } %>
-
-      <%= render partial: "partials/chunky_checkbox", locals: {id: "waste-type-3", name: "waste-types", value: "waste-farm-agricultural", label: "Farm or agricultural waste" } %>
-
-    </fieldset>
-  </form>
+  <%= render partial: "partials/checkbox_field", locals: {
+    name: "waste-types",
+    legend: "Which types of waste do you transport regularly?",
+    options: [
+      {id: "waste-type-1", value: "waste-animal", label: "Waste from animal carcasses" },
+      {id: "waste-type-2", value: "waste-mines", label: "Waste from mines or quarries" },
+      {id: "waste-type-3", value: "waste-farm-agricultural", label: "Farm or agricultural waste" }
+    ]
+  } %>
 </div>

@@ -1,0 +1,8 @@
+<fieldset>
+
+  <legend class="visuallyhidden"><%= legend %></legend>
+  <% options.each do |option| %>
+    <%= render partial: "partials/chunky_checkbox", locals: {id: option[:id], name: name, value: option[:value], label: option[:label] } %>
+  <% end %>
+
+</fieldset>
