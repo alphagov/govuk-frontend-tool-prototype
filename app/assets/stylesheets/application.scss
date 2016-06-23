@@ -25,6 +25,10 @@
 @import 'elements/buttons';
 @import 'elements/forms/form-block-labels';
 
+/** Frontend tool */
+@import "frontend_tool/frontend_tool";
+
+
 .app-container {
   @extend %site-width-container;
 

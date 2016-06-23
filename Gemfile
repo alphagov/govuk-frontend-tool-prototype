@@ -38,3 +38,5 @@ end
 gem 'govuk_frontend_toolkit', '4.12.0'
 gem 'govuk_template', '0.17.3'
 gem 'govuk_elements_rails', '1.2.1'
+
+gem 'frontend_tool', path: "frontend_tool"
