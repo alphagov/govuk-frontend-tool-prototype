@@ -34,6 +34,5 @@ end
 
 # GOV.UK Frontend packages
 gem 'govuk_template', '0.17.3'
-gem 'govuk_elements_rails', '1.2.1'
 
 gem 'frontend_tool', path: "frontend_tool"

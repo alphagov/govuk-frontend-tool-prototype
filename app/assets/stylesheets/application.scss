@@ -23,8 +23,7 @@
 @import "frontend_tool/tools/typography";
 
 @import "frontend_tool/components/buttons";
-
-@import 'elements/forms/form-block-labels';
+@import "frontend_tool/components/form-block-labels";
 
 .app-container {
   @extend %site-width-container;
