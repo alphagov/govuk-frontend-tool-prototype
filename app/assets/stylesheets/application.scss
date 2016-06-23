@@ -14,20 +14,18 @@
  *= require_self
  */
 
-/** Frontend Toolkit Helpers */
-@import "frontend_tool/colours";
-@import 'grid_layout';
-@import 'measurements';
-@import 'typography';
+/** Settings */
+@import "frontend_tool/settings/colours";
+@import "frontend_tool/settings/measurements";
 
-@import "design-patterns/buttons";
+/** Tools */
+@import "frontend_tool/tools/grid_layout";
+@import "frontend_tool/tools/typography";
+
+@import "frontend_tool/components/buttons";
 
 @import 'elements/buttons';
 @import 'elements/forms/form-block-labels';
-
-/** Frontend tool */
-@import "frontend_tool/frontend_tool";
-
 
 .app-container {
   @extend %site-width-container;
