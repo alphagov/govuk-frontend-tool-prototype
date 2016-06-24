@@ -9,6 +9,8 @@ module FrontendTool
     def precompile_assets
       %w(
         frontend_tool/govuk-template*.css
+        frontend_tool/govuk-template.js
+        frontend_tool/ie.js
         frontend_tool/fonts.css
         frontend_tool/favicon.ico
         frontend_tool/apple-touch-icon-120x120.png
