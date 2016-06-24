@@ -12,6 +12,7 @@ module FrontendTool
         frontend_tool/govuk-template.js
         frontend_tool/ie.js
         frontend_tool/fonts.css
+        frontend_tool/fonts-ie8.css
         frontend_tool/favicon.ico
         frontend_tool/apple-touch-icon-120x120.png
         frontend_tool/apple-touch-icon-152x152.png
