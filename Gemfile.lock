@@ -64,8 +64,6 @@ GEM
       activesupport (>= 4.1.0)
     govuk-lint (0.3.0)
       rubocop (~> 0.32)
-    govuk_template (0.17.3)
-      rails (>= 3.1)
     i18n (0.7.0)
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -185,7 +183,6 @@ DEPENDENCIES
   byebug
   frontend_tool!
   govuk-lint
-  govuk_template (= 0.17.3)
   jbuilder (~> 2.0)
   rails (= 4.2.4)
   rspec-rails (~> 3.3)

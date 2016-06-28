@@ -32,7 +32,5 @@ group :development, :test do
 end
 
 
-# GOV.UK Frontend packages
-gem 'govuk_template', '0.17.3'
-
+# GOV.UK Frontend package
 gem 'frontend_tool', path: "frontend_tool"
