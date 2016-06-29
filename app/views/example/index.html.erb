@@ -36,15 +36,15 @@
 
 <br><br>
 
-<%= render partial: "frontend_tool/components/alpha_beta", locals: {
+<%= component("alpha_beta", {
   phase: 'alpha',
   message: 'This is a new service – your <a href="#">feedback</a> will help us to improve it.'
-} %>
+}) %>
 
-<%= render partial: "frontend_tool/components/alpha_beta", locals: {
+<%= component("alpha_beta", {
   phase: 'beta',
   message: 'This is a new service – your <a href="#">feedback</a> will help us to improve it.'
-} %>
+}) %>
 
 <br><br>
 
