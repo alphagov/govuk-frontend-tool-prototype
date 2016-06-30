@@ -36,20 +36,15 @@
 
 <br><br>
 
-<div class="phase-banner-alpha">
-  <p>
-    <strong class="phase-tag">Alpha</strong>
-    <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
-  </p>
-</div>
+<%= component("alpha_beta", {
+  phase: 'alpha',
+  message: 'This is a new service – your <a href="#">feedback</a> will help us to improve it.'
+}) %>
 
-
-<div class="phase-banner-beta">
-  <p>
-    <strong class="phase-tag">Beta</strong>
-    <span>This is a new service – your <a href="#">feedback</a> will help us to improve it.</span>
-  </p>
-</div>
+<%= component("alpha_beta", {
+  phase: 'beta',
+  message: 'This is a new service – your <a href="#">feedback</a> will help us to improve it.'
+}) %>
 
 <br><br>
 
