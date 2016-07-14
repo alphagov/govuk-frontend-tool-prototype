@@ -1,0 +1,13 @@
+{
+  "name": "govuk_frontend_tool_prototype",
+  "version": "0.0.1",
+  "description": "Prototype of a single package of GOV.UK frontend tools",
+  "author": {
+    "name": "Government Digital Service developers",
+    "email": "govuk-dev@digital.cabinet-office.gov.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphagov/govuk-frontend-tool-prototype/issues"
+  }
+}
